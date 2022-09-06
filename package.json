@@ -1,0 +1,17 @@
+{
+  "name": "less-compiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "package": "./node_modules/.bin/pkg node_modules/.bin/lessc -t node14-linux -o bin/lessc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "less": "^3.9.0"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.0"
+  }
+}
