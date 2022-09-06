@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "package": "./node_modules/.bin/pkg node_modules/.bin/lessc -t node14-linux -o bin/lessc"
+    "package": "./scripts/build.sh"
   },
   "author": "",
   "license": "ISC",
