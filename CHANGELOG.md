@@ -3,4 +3,4 @@ This is not much development in this project as we are just redistributing a pac
 
 ## [3.0.9] - 2022-09-06
 - `lessc` version 3.0.9
-- `Node` version 14. (Unsure of exact Node version)
+- `Node` version 14 (Unsure of exact Node version)
