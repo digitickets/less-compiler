@@ -10,7 +10,7 @@ VERSION=`../bin/lessc --version | sed -rn "s/([^0-9]*)([0-9\.]+)([^0-9]*.*)/\2/ 
 
 github-release upload \
   --owner digitickets \
-  --repo less-compiler-test \
+  --repo less-compiler \
   --tag $VERSION \
   --release-name $VERSION \
   --body "lessc version $VERSION" \
