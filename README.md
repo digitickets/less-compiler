@@ -12,7 +12,7 @@ Install dependencies:
 
 Package into an executable:
 
-    npm run package
+    npm run build
 
 This will produce `bin/lessc`
 
