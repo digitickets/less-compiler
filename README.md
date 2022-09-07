@@ -52,14 +52,14 @@ Take the produced file `bin/lessc` and use that wherever you need to run it.
 
 ## Releasing A New Version
 
-- Modify the version of `less` desired in `package.json`, or by running `npm update less`  
+- Modify the version of `less` desired either by editing `package.json` then running `npm install`, or by running `npm update less`  
 - Create a personal access token on GitHub that has the "repo" permission from here: https://github.com/settings/tokens
 - Add that token to your `~/.bash_profile`:
-
-    export GITHUB_TOKEN="gh_yourtokenehere"
-
+```
+export GITHUB_TOKEN="gh_yourtokenehere"
+```
 - Run the command:
-
-    npm run release
-
+```
+npm run release
+```
 This will create a new tag and release on GitHub with the version of `lessc` created.
